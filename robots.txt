@@ -1,1 +1,5 @@
+
+User-agent: *
+Allow: /
+
 Sitemap: https://us.techwritersblog.com/sitemap.xml
