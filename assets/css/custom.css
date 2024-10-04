@@ -24,3 +24,58 @@ ul#markdown-toc
         color: white;
     }
 }
+@media (max-width: 1366px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        width:90%;
+        max-width:90%;
+        padding:0px;
+    }
+
+    div.hero div.row div.col-md-6{
+        padding: 15px !important;
+    }
+    div.hero {
+        padding: 1rem 1rem;
+    }
+    
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-top: 0px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .accordion::after {
+    content: "+";
+    position: absolute;
+    right: 2rem;
+    font-size: 30px;
+  }
+  .active::after {
+    content: "-";
+    position: absolute;
+    right: 2rem;
+    font-size: 30px;
+  }
+  
+
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
